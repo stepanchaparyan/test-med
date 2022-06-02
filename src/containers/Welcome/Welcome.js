@@ -4,7 +4,7 @@ import { Container } from './WelcomeStyled';
 const Welcome = () => {
   return (
     <Container>
-        <h1>Welcome</h1>
+        <h1>Welcome to our education center</h1>
     </Container>
   );
 };

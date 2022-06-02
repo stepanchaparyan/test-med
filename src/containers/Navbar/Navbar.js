@@ -7,8 +7,10 @@ const Navbar = () => {
   return (
     <Container>
         <Link className='link' to="/">Home</Link>
-        <Link className='link' to="/shop">Shop</Link>
-        <Link className='link' to="/addmedicine">New Medicine</Link>
+        <Link className='link' to="/lessons">Lessons</Link>
+        <Link className='link' to="/addLesson">Add Lesson</Link>
+        <Link className='link' to="/students">Students</Link>
+        <Link className='link' to="/addStudent">Add Student</Link>
     </Container>
   );
 };
